@@ -88,6 +88,7 @@ img::-moz-selection {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  z-index: 2;
 }
 
 #mainNav .navbar-brand {
@@ -303,13 +304,26 @@ header.masthead p {
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
+    opacity: 1;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 18px;
+    opacity: 1;
   }
 }
 
-
+@media (max-width: 768px) {
+ .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+    opacity: 1;
+    z-index: 2;
+  }
+.portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+    opacity: 1;
+    z-index: 2;
+  }
+}
 
 
 #about {
@@ -532,7 +546,7 @@ header.masthead p {
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  z-index: 99999;
+  z-index: 1;
 }
 
 
