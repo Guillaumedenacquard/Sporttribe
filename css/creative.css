@@ -327,18 +327,18 @@ header.masthead p {
 
 
 #about {
-  background: linear-gradient(#848484, #D8D8D8 75%); 
+  background: linear-gradient(#848484, #D8D8D8 75%);
 
 }
 
 
 #services {
-  background-color: white; 
+  background-color: white;
 }
 
 
 #contact {
-  background-color: white; 
+  background-color: white;
 }
 
 
@@ -557,6 +557,13 @@ header.masthead p {
   color: #004F9E;
 }
 
+@media (max-width: 768px) {
+  .tl-heading h4 {
+    font-size: 1rem;
+  }
+
+}
+
 .tl-body p, .tl-body ul {
   margin-bottom: 0;
 }
@@ -573,11 +580,11 @@ header.masthead p {
 }
 
 @media (max-width: 700px) {
-  
+
   ul.timeline:before {
     left: 40px;
   }
-  
+
   .tldate { width: 140px; }
 
   ul.timeline li .timeline-panel {
