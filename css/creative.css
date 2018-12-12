@@ -621,3 +621,10 @@ header.masthead p {
     right: auto;
   }
 }
+
+.logos {
+background-size: cover;
+max-height: 100px;
+width: auto;
+margin: 10px;
+}
