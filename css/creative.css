@@ -168,6 +168,8 @@ img::-moz-selection {
   }
 }
 
+
+
 .page-home header.masthead  {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -227,6 +229,36 @@ header.masthead p {
   }
 }
 
+@media (min-width: 601px){
+  a.typeform-share button {
+  display:inline-block;
+  text-decoration:none;
+  background-color:#F05F40;
+  color:white;
+  cursor:pointer;
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  margin:20px;
+  height:50px;
+  padding:0px 33px;
+  border-radius:25px;
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-weight:bold;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  }
+}
+
+@media (max-width: 600px){
+  a.typeform-share button {
+  font-size: 10px;
+  }
+}
 
 .service-box {
   max-width: 100%;
